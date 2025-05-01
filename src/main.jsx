@@ -6,11 +6,11 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //redux
-import store from './store.jsx';
+// import store from './store.jsx';
 import { Provider } from 'react-redux';
 
 createRoot(document.getElementById('root')).render(
-    <Provider store={store}>
+    // <Provider store={store}>
     <App />
-    </Provider>
+   // </Provider>
 )

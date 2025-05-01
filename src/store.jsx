@@ -22,6 +22,7 @@
 // export default store;
 
 //DAY 3
+//ses colorslice.jsx
 // import { configureStore } from "@reduxjs/toolkit";
 // import colorReduer from "./colorSlice"
 // const store= configureStore({
@@ -31,11 +32,16 @@
 // })
 // export default store;
 
-import { configureStore } from "@reduxjs/toolkit";
-import todoReduer from "./todoslice"
-const store= configureStore({
-    reducer:{
-       todo:todoReduer
-    }
-})
-export default store;
+//todo
+//uses todoslice.jsx
+// import { configureStore } from "@reduxjs/toolkit";
+// import todoReduer from "./todoslice"
+// const store= configureStore({
+//     reducer:{
+//        todo:todoReduer
+//     }
+// })
+// export default store;
+
+//DAY4 
+//TODO APP
