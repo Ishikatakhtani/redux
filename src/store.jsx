@@ -45,3 +45,11 @@
 
 //DAY4 
 //TODO APP
+import { configureStore } from "@reduxjs/toolkit";
+import todoReducer from "./todosliceapp";
+const store =configureStore({
+    reducer:{
+        todo:todoReducer
+    }
+})
+export default store;
